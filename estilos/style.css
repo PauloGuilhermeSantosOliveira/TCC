@@ -1,4 +1,11 @@
 @charset "UTF-8";
+:root {
+    --cor0: #63B0F2;
+    --cor1: #ACCAF2;
+    --cor2: #5C9DF2;
+    --cor3: #4E8AD9;
+    --cor4: #020F59;
+}
 
 *{
     margin: 0px;
@@ -6,5 +13,14 @@
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: var(--cor4);
+}
+
+main{
+background-color: var(--cor1);
+padding: 20px;
+border: 1px solid black;
+min-width: 280px;
+max-width: 800px;
+margin: auto;
 }
