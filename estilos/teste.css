@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: #f2e0bd;
+    background-color: var(--cor0);
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -33,7 +33,7 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color: #6394BF;
+    background-color: var(--cor0);
     border-radius: 5px;
     text-decoration: underline;
 }
@@ -57,7 +57,11 @@ section {
 
 .container {
     display: flex;
+    align-items: center;
+    border: 1px solid black;
 }
+
+
 
 
 /* ----------------------- MAIN ------------------------ */

@@ -12,15 +12,34 @@
     padding: 0px;
 }
 
+header{
+    background-color: var(--cor2);
+    border: 1px solid black;
+}
+nav{
+    text-align: center;
+    vertical-align: top;
+    padding-bottom:20px;
+}
+
 body{
-    background-color: var(--cor4);
+    background-color: var(--cor2);
 }
 
 main{
-background-color: var(--cor1);
+background-color:white;
 padding: 20px;
 border: 1px solid black;
 min-width: 280px;
 max-width: 800px;
 margin: auto;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
+p{
+    padding: 10px;
 }
