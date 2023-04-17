@@ -20,9 +20,18 @@ header{
  
 
 nav{
-    text-align: center;
-    vertical-align: top;
-    padding-bottom:20px;
+    display: flex;
+    align-items: center;
+}
+
+nav > a {
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+
+.logo{
+    align-items: left;
 }
 
 body{
