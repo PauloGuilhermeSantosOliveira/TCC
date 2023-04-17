@@ -54,5 +54,6 @@ section {
 
 .container {
     display: flex;
-
+    align-items: center;
+    text-align: justify;
 }
