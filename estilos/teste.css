@@ -1,10 +1,10 @@
 @charset "UTF-8";
 :root {
     --cor0: #63B0F2;
-    --cor1: #ACCAF2;
-    --cor2: #5C9DF2;
-    --cor3: #4E8AD9;
-    --cor4: #020F59;
+    --cor1: #5C9DF2;
+    --cor2: #4E8AD9;
+    --cor3: #020F59;
+    --cor4: #33363B;
 }
 
 * {
@@ -62,4 +62,17 @@ section {
 
 p{
     padding: 20px;
+}
+
+footer{
+    background-color: var(--cor4);
+    padding: 10px;
+    margin-top: 5px;
+}
+
+footer>p{
+    color: white;
+    text-align: center;
+    font-size: 1.2em;      
+    padding: 0px;
 }
