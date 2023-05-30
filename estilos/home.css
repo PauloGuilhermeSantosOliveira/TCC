@@ -82,22 +82,33 @@ main img {
     display: flex;
 }
 
+section {
+    padding: 20px 0px;
+}
+
 h1 {
     text-align: center;
     font-size: 2em;
 }
 
+/* GAMBIARA PARA COLOCAR OS TEXTOS EM DISPLAY BLOCK SEM DAR BO */
 .textos {
     margin: auto;
 }
 
-section {
-    padding: 15px 0px;
+/* GAMBIARA PARA NAO DEIXAR OS TEXTOS COLADOS NAS IMAGENS */
+#esq {
+    margin-left: 20px;
 }
+
+#dir {
+    margin-right: 20px;
+}
+/* GAMBIARA PARA NAO DEIXAR OS TEXTOS COLADOS NAS IMAGENS */
 
 aside {
     justify-content: space-around;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 h2 {
