@@ -77,6 +77,10 @@ main {
 main img {
     width: 550px;
 }
+.main__titulo{
+    font-size: 10em;
+    color: blue;
+}
 
 .container {
     display: flex;
@@ -112,7 +116,7 @@ aside {
 }
 
 h2 {
-    font-size: 1.7em;
+    font-size: 28px;
 }
 
 aside p {

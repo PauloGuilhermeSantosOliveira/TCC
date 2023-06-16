@@ -42,10 +42,12 @@ header .logo img {
 header .container {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+
 }
 
-header .box-top-left,
+header .box-top-left
+,
 header .box-top-center {
     display: flex;
     align-items: center;
@@ -57,10 +59,20 @@ header nav {
     align-items: center;
     gap: 20px;
 }
+
 header nav a {
     color: black;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
+}
+
+header a:hover {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+    transition-duration: 1s;
 }
 
 
@@ -77,31 +89,98 @@ main {
     min-width: 280px;
     max-width: 1200px;
     margin: auto;
+    border-radius: 0 0 20px 20px;
 }
 
-
-.center {
-    display: flex;
-    align-items: center;
+.legenda{
+    width: 200px;
     border: 1px solid black;
 }
 
-p {
-    padding: 10px;
+
+.vermelho{
+    background-color: red;
 }
 
-#teste {
-    height: 500px;
+.laranja{
+    background-color: orange;
 }
 
-footer {
-    flex-shrink: 0;
-    background-color: var(--cor4);
+.amarelo{
+    background-color: yellow;
+}
+
+.verde-escuro{
+    background-color: green;
+}
+
+.verde-claro{
+    background-color: greenyellow;
+}
+
+.img__altura {
     width: 100%;
+    padding: 1em 0;
+    border-radius: 30px;
+}
+
+.main__titulo {
+    font-size: 2em;
+    text-align: center;
+    color: var(--cor2);
+    padding-bottom: 1em;
+}
+
+.main__destaque {
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.main__paragrafo {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.center {
+    align-items: center;
+    display: flex;
+}
+
+
+footer { 
+    text-align: center;
+    font-weight: bold;
+    background-color: var(--cor4);
+    padding: 5px;
+    margin-top: 20px;
+    text-shadow: 1px 1px #00000080;
 }
 
 footer>p {
     color: white;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1em;
+}
+
+.gif__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+
+.list__item {
+    font-size: 32px;
+}
+
+
+@media screen and (min-width: 500px){
+    header nav a {
+        color: black;
+        font-size: 20px;
+    }
 }
