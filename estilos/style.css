@@ -137,6 +137,14 @@ main {
     background-color: #e74c3c;
   }
 
+  .cor-claro-escuro {
+    background-image: linear-gradient(to right, #a6e775, #2ecc71);
+  }
+
+  .cor-escuro-amarelo {
+    background-image: linear-gradient(to right, #2ecc71, #f1c40f);
+  }
+
 .img__altura {
     width: 100%;
     padding: 1em 0;
